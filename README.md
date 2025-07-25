@@ -22,13 +22,14 @@ This project implements an **Adaptive Enhanced Online Algorithm** for scheduling
 
 Install using:
 
-```bash
-pip install pandas numpy
+````bash
+pip install pandas numpy```
 
 🚀 How to Run
 Step 1: Preprocess job data
 
-python Excel_process.py
+```bash
+python Excel_process.py```
 
 Reads job.csv
 
@@ -36,10 +37,12 @@ Generates output.csv with cleaned job information
 
 Step 2: Run the Adaptive Scheduler
 
-python E11.py
+```bash
+python E11.py```
+
 Reads output.csv
 
 Applies the adaptive enhanced scheduling logic
 
 Displays the output graphs
-```
+````
